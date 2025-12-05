@@ -8,7 +8,7 @@ import "./styles/Pokemon.css"
 import "./styles/Footer.css"
 import "./styles/Game.css"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./component/home";
+import Home from "./component/Home";
 import Pokemon from "./component/Pokemon";
 import Game from "./component/Game";
 import Header from "./component/ui/Header";
