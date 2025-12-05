@@ -1,0 +1,90 @@
+.plist {
+    color: hsla(240, 92%, 86%, 0.74);
+}
+
+.pcards {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 5rem;
+    animation: imageReveal both;
+    animation-timeline: view();
+
+
+
+
+
+}
+
+.pname {
+    color: hsla(51, 91%, 41%, 0.74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px rgb(44, 44, 44);
+
+
+
+
+}
+
+.pcard {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    align-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5rem;
+    background-color: rgba(163, 57, 196, 0.637);
+    min-width: 300px;
+    min-height: auto;
+
+
+}
+
+.pcards :hover{
+     animation-name: slideLeft;
+    animation-duration: 3s;
+}
+
+/* @keyframes imageReveal {
+    from{
+        filter: saturate(0) contrast(0) brightness(1) blur(px);
+        opacity: 0;
+        scale: .99;
+        translate: 0 1rem;
+    }
+    to{
+        filter: none;
+        opacity: 1;
+        scale: 1;
+        transform: 0 0;
+
+    } */
+
+/* } */
+
+@keyframes slideLeft {
+    from{
+        transform: rotateX(180deg);
+    }
+
+}
+
+@media (max-width: 1350px) {
+    .pcards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 890px){
+    .pcard{
+
+        margin-right: 30px
+    }
+}

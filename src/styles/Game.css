@@ -1,0 +1,90 @@
+.game-container {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.game-title {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+/* Pokémon image */
+.pokemon-img {
+    width: 300px;
+    transition: 0.5s;
+}
+
+.pokemon-img.hidden {
+    filter: brightness(0);
+}
+
+.pokemon-img.revealed {
+    filter: brightness(1);
+}
+
+/* Guess section */
+.guess-section {
+    margin-top: 20px;
+}
+
+.guess-input {
+    padding: 10px;
+    font-size: 18px;
+    width: 220px;
+    border-radius: 8px;
+    border: none;
+}
+
+.guess-btn {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background: #ffcc01;
+    color: #333;
+}
+
+.guess-btn:hover {
+    background: #ffd633;
+}
+
+/* Result section */
+.result-section {
+    margin-top: 20px;
+}
+
+.result-text {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.play-again-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background: #4caf50;
+    color: white;
+}
+
+.play-again-btn:hover {
+    background: #5ec465;
+}
+
+/* Loading */
+.loading {
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+
+@media (max-width: 750px) {
+    .game-container {
+        display: inline-block;
+    }
+}

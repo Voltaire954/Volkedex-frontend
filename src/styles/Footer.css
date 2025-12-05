@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    /* margin-left: 150px; */
+    justify-content: space-between;
+    align-items: first baseline;
+    border-radius: 10px;
+    font-size: 10px;
+    margin-left: 100px;
+}
+
+.pokeBall {
+    font-size: 40px;
+}
+
+.vlok {
+    font-size: 15px;
+}
+
+.logo {
+    font-size: 40px;
+
+}

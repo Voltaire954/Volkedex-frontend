@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(215, 215, 253);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-radius: 100px
+}
+
+.home-header {
+    border-bottom: 1px solid black;
+    background-color: hsl(14, 92%, 44%);
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    text-decoration-line: none;
+
+}
+
+.game-header {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.home-header:hover{
+    background-color: hsla(14, 92%, 44%, 0.911);
+
+
+}
+.home-header:hover{
+    background-color: hsla(14, 92%, 44%, 0.911);
+
+
+}
