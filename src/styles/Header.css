@@ -35,3 +35,13 @@
 
 
 }
+
+
+@media (min-width: 320px) and (max-width: 420px){
+        .game-header{
+            height: 3rem;
+        }
+         .home-header{
+            height: 3rem;
+        }
+}

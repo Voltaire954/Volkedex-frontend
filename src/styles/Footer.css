@@ -20,3 +20,14 @@
     font-size: 40px;
 
 }
+@media (min-width: 250px) and (max-width: 320px){
+    .footer{margin-left: 50px;}
+
+
+}
+@media (min-width: 320px) and (max-width: 420px){
+
+    .footer{margin-left: 20px;}
+
+
+}

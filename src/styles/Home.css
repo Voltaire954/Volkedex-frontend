@@ -44,9 +44,16 @@
 
 }
 
-.pcards :hover{
-     animation-name: slideLeft;
+.pcards :hover {
+    animation-name: slideLeft;
     animation-duration: 3s;
+}
+
+.search-bar {
+    color: #e6e0e0;;
+        align-items: center;
+        margin-bottom: 20px;
+        flex: 1;
 }
 
 /* @keyframes imageReveal {
@@ -67,14 +74,14 @@
 /* } */
 
 @keyframes slideLeft {
-    from{
+    from {
         transform: rotateX(180deg);
     }
 
 }
 
 @media (max-width: 1350px) {
-    .pcards{
+    .pcards {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -82,9 +89,34 @@
 
 }
 
-@media (max-width: 890px){
-    .pcard{
+@media (max-width: 890px) {
+    .pcard {
 
         margin-right: 30px
     }
+}
+
+@media (min-width: 250px) and (max-width: 320px){
+       .pcards {
+        display: flex;
+        flex: 1 ;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
+    }
+
+
+}
+@media (min-width: 320px) and (max-width: 420px){
+       .pcards {
+        display: flex;
+        flex: 1 ;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+
 }

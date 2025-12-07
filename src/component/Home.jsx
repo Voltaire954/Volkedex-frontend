@@ -69,7 +69,8 @@ export default function Home({ pokemon }) {
       <h1 className="plist">Volkedex</h1>
 
       {/* 🔍 Search Bar */}
-      <div style={{ textAlign: "center", marginBottom: "20px", }}>
+      <div className="search-bar"
+      >
         <input
           type="text"
           placeholder="Search Pokémon..."
